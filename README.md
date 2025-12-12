@@ -1,8 +1,8 @@
 # FCM Digital - Ruby Technical challenge
 
-As we want to provide a better experience for our users we want to represent their itinerary in the most comprehensive way possible.
+As we want to provide a better experience for our users, we aim to represent their itinerary in the most comprehensive way possible.
 
-We receive the reservations of our user that we know is based on SVQ as:
+We receive the reservations of our user, who we know is based in SVQ, as:
 
 ```
 # input.txt
@@ -28,7 +28,7 @@ RESERVATION
 SEGMENT: Flight BCN 2023-03-02 15:00 -> NYC 22:45
 ```
 
-But we run a command like `BASED=SVQ bundle exec ruby main.rb input.txt` want to expose and UI like this:
+When running a command like `BASED=SVQ bundle exec ruby main.rb input.txt`, we want to display a UI like this:
 
 ```
 TRIP to BCN
@@ -46,21 +46,21 @@ Flight from SVQ to BCN at 2023-03-02 06:40 to 09:10
 Flight from BCN to NYC at 2023-03-02 15:00 to 22:45
 ```
 
-You have to write a ruby code that gets the input from the file `input.txt` and prints the expected output.
+You have to write Ruby code that reads the input from the file `input.txt` and prints the expected output.
 
 Take into account the following aspects:
 
-- You should implement the sort and grouping logic of the segments.
+- You should implement the sorting and grouping logic for the segments.
 - You can assume that segments won’t overlap.
-- IATAs are always three-letter capital words: SVQ, MAD, BCN, NYC
-- You can use external framework or libraries if you want.
+- IATA codes are always three-letter uppercase strings: SVQ, MAD, BCN, NYC
+- You can use external frameworks or libraries if you want.
 - You can attach notes explaining the solution and why certain things are included and others are left out.
 - You may consider two flights to be a connection if there is less than 24 hours difference.
-- The solution should be production ready.
-- You should provide a solution easy to extend.
+- The solution should be production-ready.
+- You should provide a solution that is easy to extend.
 
-You can reply to the email you received if you have any doubt.
+You can reply to the email you received if you have any doubts.
 
-In order to submit your solution, create your own Github repository and send us by email when it is ready.
+In order to submit your solution, create your own GitHub repository and send it to us by email once it is ready.
 
 Thank you very much for your time and good luck!
